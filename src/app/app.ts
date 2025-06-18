@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Skeleton } from './layout/skeleton/skeleton';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [Skeleton, RouterModule],
   templateUrl: './app.html',
   styleUrl: './app.less'
 })
